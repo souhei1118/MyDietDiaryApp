@@ -6,5 +6,9 @@
 //
 
 import UIKit
+import FSCalendar
 
-class CalendarViewController: UIViewController {}
+class CalendarViewController: UIViewController {
+    @IBOutlet weak var calendarView: FSCalendar!
+    
+}
