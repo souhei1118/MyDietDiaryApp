@@ -5,6 +5,9 @@ target 'MyDietDiaryApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  # Pods for YourApp
+  pod 'FSCalendar'  #追加
+
   # Pods for MyDietDiaryApp
 
   target 'MyDietDiaryAppTests' do
